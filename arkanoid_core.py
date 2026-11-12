@@ -31,9 +31,10 @@ class ArkanoidGame:
     SCREEN_HEIGHT: int = 600
     FPS: int = 60
 
-    BACKGROUND_COLOR = (12, 20, 32)
-    PADDLE_COLOR = (230, 230, 240)
-    BALL_COLOR = (255, 245, 235)
+    BACKGROUND_COLOR = (10, 18, 12)
+    BACKGROUND_COLOR2 = (13, 24, 20) # EXTRA
+    PADDLE_COLOR = (50, 255, 100)
+    BALL_COLOR = (255, 200, 40)
 
     # Paleta
     PADDLE_SIZE = (120, 18)
@@ -134,7 +135,8 @@ class ArkanoidGame:
             return
 
         # Permite ejecutar en entornos sin servidor gráfico (tests/CI).
-        if "SDL_VIDEODRIVER" not in os.environ and not os.environ.get("DISPLAY"):
+        # CONDICIÓN AÑADIDA (os.name != "nt")
+        if os.name != "nt" and "SDL_VIDEODRIVER" not in os.environ and not os.environ.get("DISPLAY"):
             os.environ["SDL_VIDEODRIVER"] = "dummy"
 
         pygame.init()
