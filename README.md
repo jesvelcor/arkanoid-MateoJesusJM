@@ -8,7 +8,7 @@ INTEGRANTES:
 Nuestro desarrollo se diferencia respecto a otros Arkanoids por lo siguiente:
 
 1. Apartado visual retro: Paleta de colores diseñada para recrear la atmósfera clásica de los salones arcade.
-2. Niveles de [ORIGINALES]:
+2. Niveles [ORIGINALES]:
   -  Ojo: Nivel con forma de ojo. Muy divertido.
   -  Laberinto: Un diseño en zigzag que aporta dinamismo.
   -  Geometry: Un pixel art sobre el popular videojuego Geometry Dash.
