@@ -1,9 +1,9 @@
 GRUPO: MateoJesúsJM
 ---------------------------------------
 INTEGRANTES:
-    Mateo Ruiz Rejano
-    Jesús Andrés Velasco Corpas-Beltrán
-    José Manuel Sayago Vega
+- Mateo Ruiz Rejano
+- Jesús Andrés Velasco Corpas-Beltrán
+- José Manuel Sayago Vega
 ---------------------------------------
 Nuestro desarrollo se diferencia respecto a otros Arkanoids por lo siguiente:
 
